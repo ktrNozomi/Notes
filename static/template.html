@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="/static/prism/prism.css">
+  <script defer src="/static/prism/prism.js"></script>
+  
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+  
+  <link rel="stylesheet" href="/static/main.css">
+
+  <title>Template</title>
+</head>
+<body>
+  <main>
+    <article>
+      <h1>Template</h1>
+
+      <section>
+        <h2>Prism Test</h2>
+        <p>Inline code: <code class="language-plain">Test</code>.</p>
+        <p>
+          Block code:
+          <pre><code class="line-numbers language-cpp">
+            // This is some code
+            int main()
+            {
+                return 0;
+            }
+          </code></pre>
+        </p>
+      </section>
+
+      <section>
+        <h2>MathJax Test</h2>
+        <p>Inline math: \(y=f(x)\).</p>
+        <p>
+          Block math:
+          \[y=f(x).\]
+        </p>
+      </section>
+    </article>
+  </main>
+</body>
+</html>
